@@ -1,0 +1,50 @@
+.register{
+    height: 670px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    background:linear-gradient(rgba(255,255,255,0.5),rgba(255,255,255,0.5)),url("https://images.unsplash.com/photo-1498243691581-b145c3f54a5a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80");
+    background-size:cover;
+}
+.registerTitle{
+    font-size: 60px;
+    font-style: oblique;
+}
+.registerForm{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.registerForm > label{
+    margin: 10px 0;
+    font-size: 30px;
+    font-style: oblique;
+}
+
+.registerInput{
+    padding: 10px;
+    background-color: white;
+    border: none;
+}
+.registerButton{
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: rgb(189, 156, 94);
+    border:none;
+    font-size: 20px;
+    color: rgb(22, 21, 21);
+    border-radius: 10px;
+    padding: 10px;
+}
+.registerLoginButton{
+    position:absolute;
+    top: 60px;
+    right: 20px;
+    background-color: rgb(211, 160, 105);
+    color: black;
+    cursor: pointer;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+}

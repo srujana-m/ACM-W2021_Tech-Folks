@@ -1,0 +1,29 @@
+#ab{
+    width: 1100px;
+    height: 550px;
+    display: flex;
+    justify-content: center;
+
+}
+.blog{
+    background: linear-gradient(to right, #917696, #cfa790);
+}
+h1{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+}
+h2{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: center;
+    font-weight: 500;
+}
+ul{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.l{
+    color: lightpink;
+}

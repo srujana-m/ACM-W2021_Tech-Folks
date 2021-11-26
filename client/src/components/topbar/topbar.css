@@ -1,0 +1,109 @@
+.top{
+    width: 100%;
+    height: 50px;
+    background: #e1eec3;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #d18de6, #ecc3b8);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #917696, #ecbca1); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    position: sticky;
+    top:0;
+    display: flex;
+    align-items: center;
+    font-family: 'Josefin Sans', sans-serif;
+    z-index: 999;
+}
+.topLeft,.topRight{
+    flex: 4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.topLR{
+    flex: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.topList{
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  
+  }
+
+.topListItem{
+  margin-right: 20px;
+  font-size: 20px;
+  font-weight: 600;
+  cursor: pointer;
+  padding: 10px;
+  text-decoration:none;
+  color: inherit;
+  
+}
+
+.topListItem:hover{
+  color: whitesmoke;
+  border: 1px solid whitesmoke;
+  border-radius: 20px;
+  background-color: rgb(53, 44, 59);
+  transition: 0.5s linear;
+  
+}
+
+.topCenter{
+flex: 6;
+}
+.topIcon{
+font-size: 30px;
+margin-right: 10px;
+color: rgb(7, 7, 7);
+cursor: pointer;
+}
+
+.topImg{
+width: 50px;
+height: 50px;
+border-radius: 50%;
+object-fit: cover;
+cursor: pointer;
+
+}
+
+
+.topSearchIcon{
+font-size: 20px;
+color: black;
+cursor: pointer;
+margin-left: 16px;
+
+}
+
+.drop-menu{
+    position: absolute;
+    background: #07519b;
+    width: 180px;
+    line-height: 45px;
+    top: 85px;
+    opacity: 0;
+    visibility: hidden;
+    box-shadow: 0 6px 10px rgba(0,0,0,0.15);
+  }
+  .li:hover .drop-menu{
+    transition: all 0.3s ease;
+    top: 70px;
+    opacity: 1;
+    visibility: visible;
+  }
+  .drop-menu li a{
+    width: 100%;
+    display: block;
+    padding: 0 0 0 15px;
+    font-weight: 400;
+    border-radius: 0px;
+  }
+  

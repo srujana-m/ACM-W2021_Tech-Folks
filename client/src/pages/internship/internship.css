@@ -1,0 +1,42 @@
+.card{
+    border:1px solid rgb(253, 123, 145);
+    background: linear-gradient(to left, #b390b9, #f3c7ae);
+}
+.card:hover{
+cursor: pointer;
+border: 2px solid palevioletred;
+box-shadow: 3px 3px 2px 2px palevioletred;
+transition: 0.4s;
+}
+.heading{
+    font-style: oblique;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 600;
+    text-align: center;
+}
+#dt{
+   background-color: rgb(209, 82, 103);
+   color: white;
+   font-size: 16px;
+   position: relative;
+   left: 80px;
+}
+
+#dt:hover{
+    background-color: rgb(253, 123, 145) ;
+ /* color:black; */
+}
+.body{
+    /* background: linear-gradient(to bottom, #917696, #cfa790); */
+     position: relative; 
+     top: -20px;
+    /* top:30px;  */
+    width: 100%;
+}
+.card-title{
+    font-size: 25px;
+}
+.card-text{
+    font-size: 15px;
+    
+}
